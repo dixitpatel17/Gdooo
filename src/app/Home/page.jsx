@@ -109,7 +109,7 @@ function home() {
                         </div>
                     </div>
 
-                    <div className="pl-5">
+                    <div className="pl-5 pb-[90px]">
                         <div className="grid gap-4">
                             <p className="text-[20px] font-semibold">Visit Popup Store</p>
                             <div className="swiper flex flex-row gap-2 ">
@@ -159,7 +159,8 @@ function home() {
                         </div>
                     </div>
                 </div>
-                <div className='flex justify-center relative z-50'>
+                <div className='fixed bottom-0 min-w-[375px] z-50'>
+                <div className='flex justify-center relative '>
                     <button className='bg-black absolute w-[48px] h-[48px] rounded-full top-[-21px]'>
                         <div className='flex justify-center items-center'>
                             <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -203,7 +204,7 @@ function home() {
                         <p className=" flex justify-center text-[10px] text-[#FECD95] ">Profile</p>
                     </div>
                 </div>
-
+                </div>
             </div>
         </div>
     )
