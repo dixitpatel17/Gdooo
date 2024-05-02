@@ -22,65 +22,33 @@ function home() {
                     </div>
                 </div>
 
-                <Swiper
-                    modules={[Navigation, Autoplay]}
-                    spaceBetween={8}
-                    slidesPerView={1.1}
-                    initialSlide={1}
-                    loop={true}
-                    autoplay={{ delay: 2000 }}
-                    centerSlides={true}
-                >
-                    <SwiperSlide>
-                        <div className="grid grid-flow-row justify-center relative ">
-                            <div className="">
-                                <img src="/images/img-1.png" className='h-[139px] w-[354px]'></img>
-                                <div className="absolute top-0  card w-full rounded-xl"></div>
-                            </div>
-                            <div className="absolute top-0 left-8 right-0 pt-[27px] ">
-                                <p className="font-bold text-[19px]">Win Exciting Prizes</p>
-                                <p className="font-normal text-[12px]">Play Gacha Game and earn Sweetballs</p>
-                                <div className="pt-4">
-                                    <button className=" border-[0.67px] rounded-full px-5 py-1  text-[14px] text-white font-semibold bg-[#FD9318] ">Explore</button>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <div className="grid grid-flow-row justify-center self-center relative " >
-                            <div className="">
-                                <img src="/images/img-1.png" className='h-[139px] w-[354px]'></img>
-                                <div className="absolute top-0  card w-full rounded-xl"></div>
-                            </div>
-                            <div className="absolute top-0 left-8 right-0 pt-[27px]" >
-                                <p className="font-bold text-[19px]">Win Exciting Prizes</p>
-                                <p className="font-normal text-[12px]">Play Gacha Game and earn Sweetballs</p>
-                                <div className="pt-4">
-                                    <button className=" border-[0.67px] rounded-full px-5 py-1  text-[14px] text-white font-semibold bg-[#FD9318] ">Explore</button>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <div className="grid grid-flow-row justify-center relative ">
-                            <div className="">
-                                <img src="/images/img-1.png" className='h-[139px] w-[354px]'></img>
-                                <div className="absolute top-0  card w-full rounded-xl"></div>
-                            </div>
-                            <div className="absolute top-0 left-8 right-0 pt-[27px]">
-                                <p className="font-bold text-[19px]">Win Exciting Prizes</p>
-                                <p className="font-normal text-[12px]">Play Gacha Game and earn Sweetballs</p>
-                                <div className="pt-4">
-                                    <button className=" border-[0.67px] rounded-full px-5 py-1  text-[14px] text-white font-semibold bg-[#FD9318] ">Explore</button>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-
-                </Swiper>
-
+                <div className="swiper flex flex-row">
+                    <Swiper
+                        modules={[Navigation, Autoplay]}
+                        spaceBetween={8}
+                        slidesPerView={1.1}
+                        loop={true}
+                        autoplay={{ delay: 2000 }}
+                        centeredSlides={true}
+                        initialSlide={1}
+                    >
+                        <SwiperSlide>
+                            <button>
+                                <img src="/images/Banner.png" className='h-[139px] w-[354px]' alt="" />
+                            </button>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <button>
+                                <img src="/images/Banner.png" className='h-[139px] w-[354px]' alt="" />
+                            </button>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <button>
+                                <img src="/images/Banner.png" className='h-[139px] w-[354px]' alt="" />
+                            </button>
+                        </SwiperSlide>
+                    </Swiper>
+                </div>
 
                 <div className=''>
                     <div className='flex justify-between pl-5 pr-5 pt-8' >
@@ -141,9 +109,9 @@ function home() {
                         </div>
                     </div>
 
-                    <div className="">
+                    <div className="pl-5">
                         <div className="grid gap-4">
-                            <p className="pl-5 text-[20px] font-semibold">Visit Popup Store</p>
+                            <p className="text-[20px] font-semibold">Visit Popup Store</p>
                             <div className="swiper flex flex-row gap-2 ">
                                 <Swiper
                                     modules={[Navigation, Autoplay]}
@@ -159,7 +127,7 @@ function home() {
                         </div>
 
                         <div className="grid gap-4">
-                            <p className="pl-5 text-[20px] font-semibold pt-4">Play Gacha</p>
+                            <p className="text-[20px] font-semibold pt-4">Play Gacha</p>
                             <div className="swiper flex flex-row gap-2">
                                 <Swiper
                                     modules={[Navigation, Autoplay]}
@@ -175,7 +143,7 @@ function home() {
                         </div>
 
                         <div className="grid gap-4">
-                            <p className="pl-5 text-[20px] font-semibold pt-4">Latest Products</p>
+                            <p className="text-[20px] font-semibold pt-4">Latest Products</p>
                             <div className="swiper flex flex-row gap-2">
                                 <Swiper
                                     modules={[Navigation, Autoplay]}
