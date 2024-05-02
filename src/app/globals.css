@@ -8,16 +8,33 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-.container{
-background-image: url("/images/BG.png");
-background-size: cover;
-background-position: center;
-min-height: 100vh;
-max-width: 375px;
-margin: auto;
-background-color:#FFF84D;
+.container {
+  background-image: url("/images/BG.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  max-width: 375px;
+  margin: auto;
+  background-color: #FFF84D;
 }
 
-.shadow{
+.shadow {
   box-shadow: rgba(113, 99, 170, 1) 0px 4px 0px 0px;
+}
+
+.card{
+  background: linear-gradient(90.43deg, #9F8CF0 0.37%, rgba(178, 163, 243, 0.66) 53.52%, rgba(145, 127, 218, 0.22) 100.84%);
+  size: cover;
+  width:92%;
+  height:100%;
+}
+
+.abc{
+  background-image: url("/images/Capa 1.png");
+  background-size: cover;
+  box-shadow: 0px 4px 0px 0px #454545;
+}
+
+.swiper{
+  width: 100%; 
 }
