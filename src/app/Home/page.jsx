@@ -47,6 +47,11 @@ function home() {
                                 <img src="/images/Banner.png" className='h-[139px] w-[354px]' alt="" />
                             </button>
                         </SwiperSlide>
+                        <SwiperSlide>
+                            <button>
+                                <img src="/images/Banner.png" className='h-[139px] w-[354px]' alt="" />
+                            </button>
+                        </SwiperSlide>
                     </Swiper>
                 </div>
 
@@ -169,7 +174,7 @@ function home() {
                         </div>
                     </button>
                 </div>
-                <div className="bg-[#FD9318] flex flex-row justify-around items-center rounded-t-[12px] pb-[34px]">
+                <div className="bg-[#FD9318] SHA flex flex-row justify-around items-center rounded-t-[12px] pb-[34px]">
                     <div className="grid gap-1 justify-center pt-[11.5px]">
                         <button className=" flex justify-center items-center">
                             <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
