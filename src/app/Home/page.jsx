@@ -21,7 +21,7 @@ function home() {
                         </svg>
                     </div>
                 </div>
-                <div className='flex justify-between items-center'>
+     
                     <Swiper
                         modules={[Navigation, Autoplay]}
                         spaceBetween={8}
@@ -48,7 +48,7 @@ function home() {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <div className="grid grid-flow-row justify-center  relative " >
+                            <div className="grid grid-flow-row justify-center self-center relative " >
                                 <div className="">
                                     <img src="/images/img-1.png" className='h-[139px] w-[354px]'></img>
                                     <div className="absolute top-0  card w-full rounded-xl"></div>
@@ -78,8 +78,24 @@ function home() {
                                 </div>
                             </div>
                         </SwiperSlide>
+
+                                                <SwiperSlide>
+                            <div className="grid grid-flow-row justify-center relative ">
+                                <div className="">
+                                    <img src="/images/img-1.png" className='h-[139px] w-[354px]'></img>
+                                    <div className="absolute top-0  card w-full rounded-xl"></div>
+                                </div>
+                                <div className="absolute top-0 left-8 right-0 pt-[27px]">
+                                    <p className="font-bold text-[19px]">Win Exciting Prizes</p>
+                                    <p className="font-normal text-[12px]">Play Gacha Game and earn Sweetballs</p>
+                                    <div className="pt-4">
+                                        <button className=" border-[0.67px] rounded-full px-5 py-1  text-[14px] text-white font-semibold bg-[#FD9318] ">Explore</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
                     </Swiper>
-                </div>
+                
 
                 <div className=''>
                     <div className='flex justify-between pl-5 pr-5 pt-8' >
