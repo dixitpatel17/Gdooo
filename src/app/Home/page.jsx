@@ -58,11 +58,13 @@ function home() {
                 <div className=''>
                     <div className='flex justify-between pl-5 pr-5 pt-8' >
                         <div>
+
                             <button className='shadow rounded-xl bg-[#9F8CF0] px-4 py-4'>
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M30.2666 15.3333L27.6007 18L24.9333 15.3333M27.9268 17.3333C27.9752 16.8956 28 16.4507 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28C19.7697 28 23.1334 26.2618 25.3333 23.5431M16 9.33333V16L20 18.6667" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </button>
+
                             <p className='text-[12px] pt-3 text-[#090B0A] flex justify-center'>Check in</p>
                         </div>
                         <div className=''>
